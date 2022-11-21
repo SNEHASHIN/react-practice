@@ -7,8 +7,10 @@ import './App.css'
 // import { ReducerCounter } from "./components/ReducerCounter";
 // import { TitleChangeClass } from "./components/TitleChangeClass";
 // import { TitleChangeHooks } from "./components/TitleChangeHooks";
-import  Check  from "./components/Check";
-
+// import  Check  from "./components/Check";
+// import { Bouncing } from "./components/Bouncing";
+import Timer  from "./components/Timer";
+// import { Notion } from "./components/Notion";
 
 
 function App() {
@@ -21,7 +23,10 @@ function App() {
       <ReducerCounter/> */}
       {/* <TitleChangeClass /> */}
       {/* <TitleChangeHooks /> */}
-      <Check />
+      {/* <Check /> */}
+      {/* <Bouncing /> */}
+      <Timer />
+      {/* <Notion /> */}
     </>
   );
 }

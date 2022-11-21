@@ -1,0 +1,34 @@
+.container{
+    text-align: center;
+}
+.popup{
+    height: 200px;
+    width :50%;
+    /* background-color: grey; */
+    /* border-radius: 20px black; */
+    position: absolute;
+    top:25%;
+    right:25%;
+}
+.btn1{
+margin-top: 50px;
+background-color: aqua;
+height: 30px;
+width: 100px;
+}
+
+.emails{
+    /* display: flex;
+    justify-content: space-around; */
+    height: 20px;
+    width: 400px;
+    
+}
+
+.btn2{
+    height: 30px;
+    width: 100px;
+    /* background-color: aqua; */
+    background-color: aqua;
+    margin-left: 20px;
+}

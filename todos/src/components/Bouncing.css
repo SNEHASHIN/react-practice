@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.mainDiv {
+    height: 500px;
+    width: 900px;
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 50px;
+    margin-left: 230px;
+    position: relative;
+    background-color: blue;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+    color: palevioletred;
+}
+
+.Box {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    /* box-shadow: 10px -10px   black; */
+    background-color: pink;
+    position: absolute;
+}
+
+.TopLeft {
+    left: 0;
+}
+
+.TopRight {
+    right: 0;
+}
+
+.BottomRight {
+    right: 0;
+    bottom: 0;
+}
+
+.BottomLeft {
+    left: 0;
+    bottom: 0;
+}
