@@ -9,8 +9,9 @@ import './App.css'
 // import { TitleChangeHooks } from "./components/TitleChangeHooks";
 // import  Check  from "./components/Check";
 // import { Bouncing } from "./components/Bouncing";
-import Timer  from "./components/Timer";
+// import Timer  from "./components/Timer";
 // import { Notion } from "./components/Notion";
+import Calculator from './components/Calculator';
 
 
 function App() {
@@ -25,8 +26,9 @@ function App() {
       {/* <TitleChangeHooks /> */}
       {/* <Check /> */}
       {/* <Bouncing /> */}
-      <Timer />
+      {/* <Timer /> */}
       {/* <Notion /> */}
+      <Calculator />
     </>
   );
 }
