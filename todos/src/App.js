@@ -1,5 +1,5 @@
 
-import './App.css'
+// import './App.css'
 // import { CountClass } from "./components/CountClass";
 // import { CountHooks } from "./components/CountHooks";
 // import { CounterHooks } from "./components/CounterHooks";
@@ -11,7 +11,8 @@ import './App.css'
 // import { Bouncing } from "./components/Bouncing";
 // import Timer  from "./components/Timer";
 // import { Notion } from "./components/Notion";
-import Calculator from './components/Calculator';
+// import Calculator from './components/Calculator';
+import Form from './components/Form';
 
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
       {/* <Bouncing /> */}
       {/* <Timer /> */}
       {/* <Notion /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      <Form />
     </>
   );
 }
