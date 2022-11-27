@@ -1,0 +1,62 @@
+.navbar{
+    height:50px;
+    border-radius: 0.5px solid rgb(231, 228, 228);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #6439ff;
+   
+    // background-color: aqua;
+
+
+    .wraper{
+    padding: 20px;
+    width: 1180px;
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+    //  background-color: aquamarine;
+
+     .search{
+        display: flex;
+        align-items: center;
+        border: 0.5px solid lightgray;
+        padding: 3px;
+        background-color: transparent;
+        font-size: 12px;
+        // width: 300px;
+     }
+
+     input{
+        border: none;
+        outline: none;
+        width: 400px;
+     }
+
+    .items{
+    display: flex;
+    align-items: center;
+
+    .item{
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .icons{
+        font-size: 25px;
+    }
+
+
+    .avatar{
+        height: 30px;
+        width: 30px;
+        border-radius: 50px;
+    }
+}
+}
+}
+
+
+
+
