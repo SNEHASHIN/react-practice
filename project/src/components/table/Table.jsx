@@ -59,6 +59,16 @@ const List = () => {
       method: "Online Payments",
       status: "Approved",
     },
+    {
+      id: 3216321,
+      product: "Blue Rose",
+      img: "https://www.maxpixel.net/static/photo/1x/Rose-Nature-Blue-Rose-Blue-Flower-Cute-Rose-Blue-5100073.jpg",
+      customer: "Sneha Shinde",
+      date: "6 March",
+      amount: 1000,
+      method: "Online Payments",
+      status: "Pending",
+    },
   ];
   return (
     <TableContainer component={Paper} className="table">
