@@ -12,7 +12,8 @@
 // import Timer  from "./components/Timer";
 // import { Notion } from "./components/Notion";
 // import Calculator from './components/Calculator';
-import Form from './components/Form';
+import Form from './components/forms/Form';
+// import Counter from "./components/counter";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       {/* <Notion /> */}
       {/* <Calculator /> */}
       <Form />
+      {/* <Counter /> */}
     </>
   );
 }
